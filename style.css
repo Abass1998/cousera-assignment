@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+}
+
+.first-div {
+  border: 2px solid black;
+  background-color: grey;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.first-title {
+  font-size: 2rem;
+  float: right;
+  margin-bottom: 2rem;
+  border: 2px solid black;
+  background-color: red;
+  padding: 1.5rem;
+  width: 40%;
+  text-align: center;
+}
+
+.first-description {
+  float: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.second-div {
+  border: 2px solid black;
+  background-color: grey;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.second-title {
+  font-size: 2rem;
+  float: right;
+  margin-bottom: 2rem;
+  background-color: blue;
+  border: 2px solid black;
+  padding: 1.5rem;
+  width: 40%;
+  text-align: center;
+}
+
+.second-description {
+  float: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.third-div {
+  border: 2px solid black;
+  background-color: grey;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.third-title {
+  font-size: 2rem;
+  float: right;
+  margin-bottom: 2rem;
+  background-color: green;
+  border: 2px solid black;
+  padding: 1.5rem;
+  width: 40%;
+  text-align: center;
+}
+
+.third-description {
+  float: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  /*border: 2px solid yellow;*/
+  justify-content: space-between;
+  margin-bottom: 14rem;
+}
+
+@media screen and (min-width: 992px) {
+  .first-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 30%;
+    height: 110vh;
+    margin: 0 auto;
+  }
+
+  .first-title {
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    background-color: red;
+    padding: 1.5rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  .first-description {
+    float: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .second-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 30%;
+    height: 110vh;
+    margin: 0 auto;
+  }
+
+  .second-title {
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 2rem;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 1.5rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  .second-description {
+    float: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .third-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 30%;
+    height: 110vh;
+    margin: 0 auto;
+  }
+
+  .third-title {
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 2rem;
+    background-color: green;
+    border: 2px solid black;
+    padding: 1.5rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  .third-description {
+    float: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /*border: 2px solid yellow;*/
+
+    justify-content: space-between;
+  }
+
+  .header {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .first-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    right: 13rem;
+  }
+
+  .first-title {
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    background-color: red;
+    padding: 1.5rem;
+    width: 50%;
+    text-align: center;
+  }
+
+  .second-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    left: 13rem;
+    bottom: 72rem;
+  }
+
+  .second-title {
+    font-size: 2rem;
+    float: right;
+    margin-bottom: 2rem;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 1.5rem;
+    width: 50%;
+    text-align: center;
+  }
+
+  .header {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+  }
+
+  .third-div {
+    border: 2px solid black;
+    background-color: grey;
+    width: 90%;
+    height: 130vh;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+  }
+}
